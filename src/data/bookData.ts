@@ -1,0 +1,66 @@
+import { BookPageData } from '../types/gameTypes';
+
+export const BOOK_PAGES: BookPageData[] = [
+  {
+    id: 'cuoi-intro',
+    pageNumber: 1,
+    title: 'Hành Trình Dưới Ánh Trăng',
+    subtitle: 'Chuyện về chú Cuội và chiếc đèn ông sao',
+    category: 'story',
+    badgeText: 'Mở đầu',
+    illustration: 'moon_tree',
+    content: [
+      'Đêm Rằm tháng Tám, khi trẻ em dưới Trái Đất rước đèn và ngắm trăng tròn, chú Cuội chợt giật mình tỉnh giấc dưới gốc đa ngàn năm.',
+      'Chiếc ghế đá bên cạnh trống không. Chị Hằng dịu hiền biến mất, chỉ để lại những vệt dấu chân kim loại kỳ lạ in hằn trên lớp cát bụi xám.',
+      'Cây Đa trao cho Cuội một chiếc Đèn Ông Sao năm cánh còn tối. Để tìm lại chị Hằng, Cuội cần lắng nghe câu chuyện của những người bạn thầm lặng trên Mặt Trăng, thắp sáng từng cánh sao bằng lòng thấu hiểu và tri thức khoa học.',
+    ],
+  },
+  {
+    id: 'meet-mat-tron',
+    pageNumber: 2,
+    title: 'Người Bạn Mắt Tròn',
+    subtitle: 'Tàu đổ bộ Surveyor 3 (1967)',
+    category: 'character',
+    badgeText: 'Nhân vật',
+    illustration: 'surveyor_art',
+    content: [
+      'Trong lòng một miệng hố nhỏ tại vùng Đại Dương Bão (Oceanus Procellarum), một cỗ máy ba chân đứng kiên cường, "con mắt" camera tròn ngước nhìn lên vòm trời đầy sao.',
+      'Đó là Mắt Tròn — tên khoa học là Surveyor 3. Chú được NASA phóng lên vào ngày 17/04/1967 và đáp an toàn xuống Mặt Trăng ngày 20/04/1967.',
+      'Mắt Tròn có một chiếc xẻng xúc đất cơ học vươn dài và chiếc camera xoay tròn. Chú là "người tiền trạm" dũng cảm kiểm tra bề mặt Mặt Trăng trước khi loài người đặt chân tới.',
+    ],
+  },
+  {
+    id: 'surveyor-journal',
+    pageNumber: 3,
+    title: 'Manh Mối: Ba Mảnh Ký Ức',
+    subtitle: 'Khôi phục nhật ký theo dòng thời gian',
+    category: 'clue',
+    badgeText: 'Manh mối quan trọng',
+    illustration: 'journal_clues',
+    content: [
+      'Mắt Tròn đã trải qua ba sự kiện lịch sử không thể nào quên:',
+      '1. Sự kiện Đầu tiên (1967): "Cú hạ cánh nhẹ nhàng và những rãnh đất đầu tiên". Tàu dùng cánh tay xúc đất cơ học đào 4 rãnh sâu để thử nghiệm độ chắc của đất Mặt Trăng.',
+      '2. Sự kiện Kế tiếp (1967): "Đôi mắt gửi hàng ngàn bức ảnh". Camera truyền hình của Mắt Tròn đã xoay tròn chụp và truyền về Trái Đất hơn 6.300 bức ảnh quý giá trước khi pin cạn kiệt trong đêm trăng lạnh giá.',
+      '3. Sự kiện Sau cùng (1969): "Cuộc hội ngộ bất ngờ từ Apollo 12". Hai năm sau, hai phi hành gia từ Trái Đất đã đi bộ đến thăm Mắt Tròn, mang chiếc camera trở về nhà để nghiên cứu.',
+      '👉 Gợi ý giải đố: Hãy xếp theo thứ tự: Hạ cánh đào rãnh đất (1967) ➔ Chụp hàng ngàn bức ảnh gửi về Trái Đất (1967) ➔ Phi hành gia Apollo 12 ghé thăm (1969).',
+    ],
+  },
+  {
+    id: 'surveyor-facts',
+    pageNumber: 4,
+    title: 'Góc Khoa Học & Lịch Sử',
+    subtitle: 'Phân biệt sự thật khoa học và truyện kể',
+    category: 'stem',
+    badgeText: 'STEM & NASA',
+    illustration: 'nasa_facts',
+    content: [
+      '🔍 Sự thật khoa học (NASA):',
+      '• Surveyor 3 thực sự nằm trong một miệng hố nghiêng 12 độ tại Oceanus Procellarum.',
+      '• Ngày 19/11/1969, tàu Apollo 12 hạ cánh cách Surveyor 3 chỉ 180 mét. Hai phi hành gia Pete Conrad và Alan Bean đã tháo camera mang về Trái Đất.',
+      '• Các nhà khoa học phát hiện bụi Mặt Trăng rất mịn, bám chặt và có tác động làm đổi màu thiết bị sau 31 tháng phơi nhiễm trong không gian.',
+      '✨ Chi tiết tưởng tượng nghệ thuật:',
+      '• Chú Cuội, chị Hằng và chiếc Đèn Ông Sao năm cánh là hình tượng văn hóa dân gian Việt Nam.',
+      '• Mắt Tròn biết trò chuyện bằng cảm xúc nhằm giúp chúng ta thấu hiểu giá trị của sự cống hiến khoa học và thông điệp: "Được nhớ đến chính là nguồn sáng".',
+    ],
+  },
+];
